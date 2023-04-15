@@ -28,6 +28,6 @@
 1. v1을 발전시켜, dispatcher로 view 주소를 넣는 과정을 webservlet에서 처리하도록 만들기.
 
 ## v3
-1. 서블릿 종속성 제거
+1. 서블릿 종속성 제거 -> model 사용
 2. 뷰 이름 중복 제거
 3. viewResolver를 통한 view 반환
