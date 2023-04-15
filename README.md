@@ -9,7 +9,7 @@
 * Java 11
 * Spring Boot 2.x.x
 
-## 세부사항
+##  v0
 
 다음과 같은 기능을 구현했습니다.
 
@@ -19,6 +19,10 @@
 
 3. RequestDistpatcher를 이용해서 원하는 viewPath로 이동하기 이때 viewPathsms jsp로 구현
 
-4. 단일 webservlet에서 여러 url을 알맞은 controller로 전송하기
+## v1
 
-5. 4번의 기능을 발전시켜, dispatcher로 view 주소를 넣는 과정을 webservlet에서 처리하도록 만들기.
+1. 단일 webservlet에서 여러 url을 알맞은 controller로 전송하기
+
+## v2
+
+1. v1을 발전시켜, dispatcher로 view 주소를 넣는 과정을 webservlet에서 처리하도록 만들기.
